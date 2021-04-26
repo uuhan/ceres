@@ -2,7 +2,7 @@
 use crate::{storage::MemoryStorage, util, Error, Metadata, Result, Storage};
 use ceres_executor::{Builder, Instance, Memory};
 use ceres_sandbox::{Sandbox, Transaction};
-use ceres_std::{Rc, String, ToString, Vec};
+use ceres_std::{Box, Rc, String, ToString, Vec};
 use core::cell::RefCell;
 use parity_wasm::elements::Module;
 
