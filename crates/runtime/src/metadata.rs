@@ -90,8 +90,8 @@ impl Metadata {
 }
 
 /// Source section in *.contract
-#[derivative(Debug)]
 #[derive(Clone, Derivative, Deserialize, Serialize)]
+#[derivative(Debug)]
 pub struct Source {
     /// code hash
     pub hash: String,
